@@ -1,0 +1,81 @@
+/* Professional Main Page CSS */
+body {
+    background-color: #f4f4f4; /* Light background color */
+    color: #333; /* Dark text color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* White container background */
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Subtle container box shadow */
+}
+
+header {
+    background-color: #333; /* Dark header background color */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    color: #0ff; /* Highlighted header text color */
+    font-size: 28px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Text shadow for emphasis */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #333; /* Link text color */
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #0ff; /* Link text color on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+
+main {
+    padding: 20px;
+}
+
+.recipe-description {
+    text-align: left; /* Left-align text in the description */
+}
+
+.recipe-description h2 {
+    color: #333; /* Section title color */
+    font-size: 24px;
+}
+
+.recipe-description p {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #333; /* Dark footer background color */
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    color: #0ff; /* Footer text color */
+    font-weight: bold;
+    font-size: 16px;
+}
